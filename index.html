@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="#06022c">
+    <div class="navbar">
+        <img src="./images/simbol.jfif" alt="simbol" />
+        <h1>CoinFlip</h1>
+    </div>
+
+    <div class="gameboard">
+        <div class="controlboard">
+            <label>set your enty</label>
+            <input class="betval"></input>
+            <label>choose a side</label>
+            <div class="faceSelect">
+                <button>Front</button>
+                <button>Back</button>
+            </div>
+            <button onclick="start_flip()">Start</button>
+        </div>
+        <div class="coinboard">
+            <div id="coin" class="coin"></div>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

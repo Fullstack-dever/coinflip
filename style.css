@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+.coin {
+    background-image: url("./images/front.jfif");
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 3s;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(16, 11, 54);
+    height: 100px;
+    width: auto;
+}
+
+.navbar>img {
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.gameboard {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 50px;
+    height: 500px;
+    width: 60%;
+    color: #06022c;
+    background-color: #131830;
+}
+
+.controlboard {
+    font-size: large;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 40%;
+    border-right: solid 1px darkgray;
+}
+
+.faceSelect>button {
+    width: 100px;
+}
+
+.controlboard>button {
+    width: 200px;
+}
+
+.coinboard {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: center;
+}
